@@ -8,14 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
     <meta name="description" content="Be a good programmer!">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Basic JAVA">
-<meta property="og:url" content="https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/index.html">
+<meta property="og:title" content="Git and Gitlet">
+<meta property="og:url" content="https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/index.html">
 <meta property="og:site_name" content="Star Walker">
 <meta property="og:description" content="Be a good programmer!">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-05-24T02:20:50.000Z">
-<meta property="article:modified_time" content="2021-05-24T02:20:50.012Z">
+<meta property="article:published_time" content="2021-05-24T11:16:27.000Z">
+<meta property="article:modified_time" content="2021-05-24T11:16:52.581Z">
 <meta property="article:author" content="Xiao Junhua">
+<meta property="article:tag" content="git">
 <meta name="twitter:card" content="summary">
     
     
@@ -36,7 +37,7 @@
       
     
     <!-- title -->
-    <title>Basic JAVA</title>
+    <title>Git and Gitlet</title>
     <!-- styles -->
     
 <link rel="stylesheet" href="/xiao-junhua/xiao-junhua.github.io/css/style.css">
@@ -76,10 +77,8 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" aria-label="Previous post " href="/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
-        
-        <li><a class="icon" aria-label="Next post " href="/xiao-junhua/xiao-junhua.github.io/2021/05/24/Union-Find-Data-Structure/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Next post " href="/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" aria-label="Back to top " href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" aria-label="Share post " href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -92,17 +91,17 @@
     <br/>
     <div id="share" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&text=Basic JAVA"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&title=Basic JAVA"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&is_video=false&description=Basic JAVA"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=Basic JAVA&body=Check out this article: https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&title=Basic JAVA"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&title=Basic JAVA"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&title=Basic JAVA"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&title=Basic JAVA"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&name=Basic JAVA&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&t=Basic JAVA"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&text=Git and Gitlet"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&title=Git and Gitlet"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&is_video=false&description=Git and Gitlet"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Git and Gitlet&body=Check out this article: https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&title=Git and Gitlet"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&title=Git and Gitlet"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&title=Git and Gitlet"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&title=Git and Gitlet"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&name=Git and Gitlet&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&t=Git and Gitlet"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -119,7 +118,7 @@
   <header>
     
     <h1 class="posttitle" itemprop="name headline">
-        Basic JAVA
+        Git and Gitlet
     </h1>
 
 
@@ -131,7 +130,7 @@
       
     <div class="postdate">
       
-        <time datetime="2021-05-24T02:20:50.000Z" itemprop="datePublished">2021-05-24</time>
+        <time datetime="2021-05-24T11:16:27.000Z" itemprop="datePublished">2021-05-24</time>
         
       
     </div>
@@ -140,6 +139,11 @@
       
 
       
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/xiao-junhua/xiao-junhua.github.io/tags/git/" rel="tag">git</a>
+    </div>
+
 
     </div>
   </header>
@@ -178,17 +182,17 @@
 
     <div id="share-footer" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&text=Basic JAVA"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&title=Basic JAVA"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&is_video=false&description=Basic JAVA"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=Basic JAVA&body=Check out this article: https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&title=Basic JAVA"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&title=Basic JAVA"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&title=Basic JAVA"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&title=Basic JAVA"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&name=Basic JAVA&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Basic-JAVA/&t=Basic JAVA"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&text=Git and Gitlet"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&title=Git and Gitlet"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&is_video=false&description=Git and Gitlet"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Git and Gitlet&body=Check out this article: https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&title=Git and Gitlet"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&title=Git and Gitlet"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&title=Git and Gitlet"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&title=Git and Gitlet"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&name=Git and Gitlet&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://github.com/xiao-junhua/xiao-junhua.github.io/2021/05/24/Git-and-Gitlet/&t=Git and Gitlet"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
