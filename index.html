@@ -20,7 +20,14 @@
     <body>
         <audio autoplay="autoplay", id="audios">
           <source src="music/love.mp3" type="audio/mp3" />
-      </audio>
+        </audio>
+
+        <script>
+        document.addEventListener('touchstart', function() {
+            document.getElementById('audios').play()
+        })
+        </script>
+        
         <div id="main">
              <div id="wrap">
                 <div id="text">
@@ -46,13 +53,6 @@
             </div>
             
         </div>
-    
-    <script>
-        document.addEventListener('touchstart', function() {
-            document.getElementById('audios').play()
-        })
-
-    </script>
 
     <script>
     (function(){
