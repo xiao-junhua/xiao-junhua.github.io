@@ -15,27 +15,6 @@
 <body>
 	<audio id="bgmMusic" src="lovebgm.mp3" autoplay="autoplay" loop preload="auto" type="audio/mp3"></audio>
 
-	<script>
-	document.addEventListener('touchstart', function() {
-			document.getElementById('audios').play()
-	})
-	</script>
-
-	<script type="text/javascript">
-			window.onload = function(){
-			 setInterval("toggleSound()",100);
-			}
-
-			function toggleSound() {
-					var music = document.getElementById("bgmMusic");//获取ID  
-							
-					if (music.paused) { //判读是否播放  
-							music.paused=false;
-							music.play(); //没有就播放 
-					}    
-			}
-	</script>
-
 	<div class="flowtime">
 		<div class="ft-section section-1" data-id="section-1">
 			<div id="/section-1/page-1" class="ft-page page-1" data-id="page-1">
