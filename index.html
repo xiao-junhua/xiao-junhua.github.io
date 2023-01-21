@@ -23,16 +23,16 @@
 
 	<script type="text/javascript">
 			window.onload = function(){
-			 setInterval("toggleSound()",10);
+			 setInterval("toggleSound()",100);
 			}
 
 			function toggleSound() {
 					var music = document.getElementById("bgmMusic");//获取ID  
-					
-					while(music.paused) {
-						music.paused=false;
-						music.play(); //没有就播放
-					}   
+							
+					if (music.paused) { //判读是否播放  
+							music.paused=false;
+							music.play(); //没有就播放 
+					}    
 			}
 	</script>
 
